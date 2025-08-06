@@ -8845,18 +8845,6 @@
       }
     },
     {
-      "id": "1d110943-24f6-4ed5-b303-634ca98c97be",
-      "date": "2008-09-15",
-      "title": {
-        "zhCN": "雷曼兄弟公司破产与全球金融危机",
-        "enUS": "Lehman Brothers Collapse and Global Financial Crisis"
-      },
-      "description": {
-        "zhCN": "美国投资银行雷曼兄弟公司申请破产，引发了全球性的金融危机。这场危机导致大规模的经济衰退，促使美国政府出台大规模的金融救助和监管改革，并对全球经济格局产生了深远影响。",
-        "enUS": "The U.S. investment bank Lehman Brothers filed for bankruptcy, triggering a global financial crisis. The crisis led to a massive economic recession, prompting the U.S. government to implement large-scale financial bailouts and regulatory reforms, and had a profound impact on the global economic landscape."
-      }
-    },
-    {
       "id": "1710f64f-760a-43df-b4f9-bae0604628f3",
       "date": "2008-11-04",
       "title": {
@@ -9789,7 +9777,6 @@
         "480cbfba-0fac-4612-8a3f-4485fb85d374",
         "dd566265-7989-4f42-9153-8a512b29131a",
         "0e2775ea-fb41-45ce-bbf0-1607309760f2",
-        "1d110943-24f6-4ed5-b303-634ca98c97be",
         "1710f64f-760a-43df-b4f9-bae0604628f3",
         "34474a96-42ac-4a41-a009-2d2835a68724",
         "f26c66c4-f77c-4797-8b2c-b3aa51989209",
@@ -10769,7 +10756,6 @@
         "dd566265-7989-4f42-9153-8a512b29131a",
         "cff97600-89d2-4633-818c-36217643905c",
         "0e2775ea-fb41-45ce-bbf0-1607309760f2",
-        "1d110943-24f6-4ed5-b303-634ca98c97be",
         "1710f64f-760a-43df-b4f9-bae0604628f3",
         "34474a96-42ac-4a41-a009-2d2835a68724",
         "96b791e3-09ee-4d1f-8ddf-a2c518b364b6",
@@ -10796,7 +10782,6 @@
         "zhCN": "指人类对自然、社会、制度、哲学等未知领域的系统性探索过程，其核心在于知识的拓宽和观念的更新。包括科学原理、地理疆域的发现，以及法律制度、哲学思想的建立等。",
         "enUS": "Refers to humanity's systematic process of exploring unknown fields such as nature, society, institutions, and philosophy. Its core lies in the expansion of knowledge and the renewal of concepts, including the discovery of scientific principles, geographical frontiers, and the establishment of legal systems and philosophical thought."
       },
-      "type": "tag",
       "events": [
         "1898406e-e27e-42b9-9d50-d4b831e399db",
         "424f113d-4286-44b8-a41c-899ddb91a340",
@@ -10881,7 +10866,6 @@
         "zhCN": "指人类将知识应用于实践，创造出前所未有的工具、技术、产品或系统，以解决实际问题。其成果既包括从无到有的基础性发明，也包括对现有技术的重大改进、工程成就和制度创新。",
         "enUS": "Refers to humanity's application of knowledge to create unprecedented tools, technologies, products, or systems to solve practical problems. The results include foundational inventions, significant improvements to existing technologies, major engineering achievements, and institutional innovations."
       },
-      "type": "tag",
       "events": [
         "2af2aa86-9599-4390-9695-4666ec57507b",
         "216efa1b-f623-48bc-ae9b-0a298d814117",
@@ -11245,7 +11229,6 @@
         "480cbfba-0fac-4612-8a3f-4485fb85d374",
         "1391d8f8-3341-4fe6-bd80-cbe7e693ecfd",
         "0e2775ea-fb41-45ce-bbf0-1607309760f2",
-        "1d110943-24f6-4ed5-b303-634ca98c97be",
         "96b791e3-09ee-4d1f-8ddf-a2c518b364b6",
         "42b3f8ed-9ffc-489f-92bb-68c1d863a002",
         "a8617506-457b-4203-a20c-65eaea7b6a9c",
@@ -11348,5 +11331,5 @@
       ]
     }
   ],
-  "createdAt": 1754404565025
+  "createdAt": 1754492524661
 }
