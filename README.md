@@ -1,8 +1,6 @@
 # Naive History Data
 
-This is the dataset of [Naive History App](https://maribbit.github.io/naive-history-app/).
-
-[天真历史](https://maribbit.github.io/naive-history-app/)项目数据集。
+Visualization: [Naive History App](https://maribbit.github.io/naive-history-app/).
 
 ## Overview | 概述
 
@@ -27,6 +25,16 @@ I have developed an NPM package [fuzzy-date-ts](https://www.npmjs.com/package/fu
 其余字段的含义不言自明。所有需要显示的文字均支持中英双语。
 
 我专门开发了一个NPM包 [fuzzy-date-ts](https://www.npmjs.com/package/fuzzy-date-ts) 来处理模糊日期。这里的日期均为此包的序列化产物。
+
+## Development | 发展
+
+If you have any questions or suggestions, please feel free to open an issue.
+
+如果您有任何问题或建议，欢迎随时提交Issue。
+
+If you give Maribbit a star, you are welcome to join the QQ Group: 1059966304
+
+给海兔一个⭐️，欢迎加入企鹅群：1059966304
 
 ## License | 许可证
 
