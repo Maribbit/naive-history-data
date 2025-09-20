@@ -32,6 +32,14 @@ If you have any questions or suggestions, please feel free to open an issue.
 
 如果您有任何问题或建议，欢迎随时提交Issue。
 
+Adding new events requires references and a balanced consideration. This kind of issue might be rejected.
+
+新增事件需要有参考文献，并且需要考虑数据集的平衡性。这类Issue可能会被拒绝。
+
+I **do not accept** requests to modify data for subjective reasons such as preferences, political stance, values, etc.
+
+我**不接受**因为喜好、政治立场、价值观等主观原因而要求修改数据的请求。
+
 If you give Maribbit a star, you are welcome to join the QQ Group: 1059966304
 
 给海兔一个⭐️，欢迎加入企鹅群：1059966304
