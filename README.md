@@ -44,6 +44,12 @@ If you give Maribbit a star, you are welcome to join the QQ Group: 1059966304
 
 给海兔一个⭐️，欢迎加入企鹅群：1059966304
 
+## Contributing | 贡献
+
+Want to add or improve references? See the [Contributing Guide](CONTRIBUTING.md) for a step-by-step walkthrough, including tips for newcomers to GitHub.
+
+想为事件补充或完善参考文献？请阅读 [贡献指南](CONTRIBUTING.md)，其中包含详细的操作步骤和对新手友好的说明。
+
 ## License | 许可证
 
 This dataset is licensed under [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
