@@ -77,7 +77,7 @@ If you are new to GitHub, this is the easiest path.
 2. Click the pencil icon **Edit this file** (you must be logged in).
 3. Locate the event you want to improve. If it lacks references, add a `"reference"` array like the example above.
 4. Use the preview tab or copy the content to JSONLint to ensure the format is valid.
-5. Scroll down, write a descriptive commit message (e.g., "Add references for Han Dynasty event").
+5. Click **Commit changes**, write a descriptive commit message (e.g., "Add references for Han Dynasty event").
 6. Choose **Create a new branch for this commit** and keep the suggested name.
 7. Click **Propose changes**, then **Create pull request**. Add more details if necessary.
 
@@ -91,7 +91,7 @@ If you are new to GitHub, this is the easiest path.
 2. 点击铅笔图标 **Edit this file**（请先登录）。
 3. 找到你想补充参考文献的事件，如果缺少 `"reference"` 字段，请按示例添加。
 4. 使用预览功能或复制到 JSONLint 检查格式。
-5. 滚动到页面底部，填写描述性提交信息（例如：“为某事件添加参考文献”）。
+5. 点击 **Commit changes**，填写描述性提交信息（例如：“为某事件添加参考文献”）。
 6. 选择 **Create a new branch for this commit**，使用系统建议的分支名称。
 7. 点击 **Propose changes**，再点击 **Create pull request**，必要时补充说明。
 
