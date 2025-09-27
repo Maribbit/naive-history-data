@@ -8,14 +8,18 @@ Thank you for your interest in improving **Naive History Data**! This project we
 
 ## 1. What We Need Most | 我们最期待的贡献
 
-- **Primary focus:** adding or improving *references* for historical events.  
-   **目标:** 为历史事件添加或完善参考文献。
-- **Contribution method:** submit a Pull Request (PR).  
-   **方式:** 提交 Pull Request (PR)。
-- **Where to edit:** open the event object inside the top-level `events` array that you want to improve, then add a new `"reference"` field to that object.  
-   **修改位置:** 在顶层 `events` 数组中找到需要完善的事件对象，并在该对象内添加新的 `"reference"` 字段。
-- **Format requirement:** the `"reference"` field must be an array as shown below.  
-   **格式要求:** `"reference"` 字段必须是一个数组，如下所示。
+- **Primary focus:** adding or improving *references* for historical events.
+
+   **目标：** 为历史事件添加或完善参考文献。
+- **Contribution method:** submit a Pull Request (PR).
+
+   **方式：** 提交 Pull Request (PR)。
+- **Where to edit:** open the event object inside the top-level `events` array that you want to improve, then add a new `"reference"` field to that object.
+
+   **修改位置：** 在顶层 `events` 数组中找到需要完善的事件对象，并在该对象内添加新的 `"reference"` 字段。
+- **Format requirement:** the `"reference"` field must be an array as shown below.
+
+   **格式要求：** `"reference"` 字段必须是一个数组，如下所示。
 
 Each event in `historical-events.json` looks similar to the simplified example below. Insert the `"reference"` array inside the same event object, keeping the existing properties intact.
 
@@ -42,12 +46,15 @@ Each event in `historical-events.json` looks similar to the simplified example b
 }
 ```
 
-- Each object needs two fields: `text` (can be either Chinese or English) and `link` (a valid URL).  
-  每个对象需要两个字段：`text`（可以是中文或英文）和 `link`（一个有效的 URL）。
-- Multiple references are welcome—add more objects to the array. 
-  欢迎添加多个参考文献——在数组中添加更多对象。 
-- We do not require perfection. Reviewers will normalize and merge accepted PRs. 
-  我们不要求完美。审核者会规范化并合并被接受的 PR。
+- Each object needs two fields: `text` (can be either Chinese or English) and `link` (a valid URL).
+
+   每个对象需要两个字段：`text`（可以是中文或英文）和 `link`（一个有效的 URL）。
+- Multiple references are welcome—add more objects to the array.
+
+   欢迎添加多个参考文献——在数组中添加更多对象。
+- We do not require perfection. Reviewers will normalize and merge accepted PRs.
+
+   我们不要求完美。审核者会规范化并合并被接受的 PR。
 
 ---
 
@@ -65,24 +72,40 @@ If you are new to GitHub, this is the easiest path.
 
 对 GitHub 不熟悉？以下是最简单的贡献方式。
 
-**You only need | 你只需要**
-- A GitHub account and a web browser. | 一个 GitHub 账号和任意浏览器。
-- Willingness to double-check each link you add. | 愿意检查你添加的每个链接是否可访问。
-- Optional: paste the JSON into [JSONLint](https://jsonlint.com/) to validate the format. | 可选：将 JSON 粘贴到 [JSONLint](https://jsonlint.com/) 以验证格式。
+**You only need**
 
-1. Visit the file [`historical-events.json`](historical-events.json).  
+**你只需要**
+
+- A GitHub account and a web browser.
+
+   一个 GitHub 账号和任意浏览器。
+- Willingness to double-check each link you add.
+
+   愿意检查你添加的每个链接是否可访问。
+- Optional: paste the JSON into [JSONLint](https://jsonlint.com/) to validate the format.
+
+   可选：将 JSON 粘贴到 [JSONLint](https://jsonlint.com/) 以验证格式。
+
+1. Visit the file [`historical-events.json`](historical-events.json).
+
    打开 [`historical-events.json`](historical-events.json)。
-2. Click the pencil icon **Edit this file** (you must be logged in).  
+2. Click the pencil icon **Edit this file** (you must be logged in).
+
    点击铅笔图标 **Edit this file**（请先登录）。
-3. Locate the event you want to improve. If it lacks references, add a `"reference"` array like the example above.  
+3. Locate the event you want to improve. If it lacks references, add a `"reference"` array like the example above.
+
    找到你想补充参考文献的事件，如果缺少 `"reference"` 字段，请按示例添加。
-4. Use the preview tab or copy the content to JSONLint to ensure the format is valid.  
+4. Use the preview tab or copy the content to JSONLint to ensure the format is valid.
+
    使用预览功能或复制到 JSONLint 检查格式。
-5. Scroll down, write a descriptive commit message (e.g., "Add references for Han Dynasty event").  
+5. Scroll down, write a descriptive commit message (e.g., "Add references for Han Dynasty event").
+
    滚动到页面底部，填写描述性提交信息（例如：“为某事件添加参考文献”）。
-6. Choose **Create a new branch for this commit** and keep the suggested name.  
+6. Choose **Create a new branch for this commit** and keep the suggested name.
+
    选择 **Create a new branch for this commit**，使用系统建议的分支名称。
-7. Click **Propose changes**, then **Create pull request**. Add more details if necessary.  
+7. Click **Propose changes**, then **Create pull request**. Add more details if necessary.
+
    点击 **Propose changes**，再点击 **Create pull request**，必要时补充说明。
 
 Our maintainers will review your PR, normalize the data if needed, and merge it when everything looks good.
@@ -97,50 +120,71 @@ For experienced contributors or those comfortable with Git.
 
 更适合熟悉 Git 的贡献者。
 
-**You will need | 你需要准备**
-- A GitHub account plus the ability to clone repositories. | 一个 GitHub 账号，并且能够克隆仓库。
-- Git installed locally and basic command-line knowledge. | 本地安装 Git，并了解基本命令行操作。
-- A text editor with JSON support (VS Code, Sublime Text, etc.). | 支持 JSON 的文本编辑器（如 VS Code、Sublime Text 等）。
-- Time to verify every link you add. | 有时间检查你添加的每个链接是否可访问。
+**You will need**
 
-1. **Fork this repository** to your own GitHub account.  
+**你需要准备**
+
+- A GitHub account plus the ability to clone repositories.
+
+   一个 GitHub 账号，并且能够克隆仓库。
+- Git installed locally and basic command-line knowledge.
+
+   本地安装 Git，并了解基本命令行操作。
+- A text editor with JSON support (VS Code, Sublime Text, etc.).
+
+   支持 JSON 的文本编辑器（如 VS Code、Sublime Text 等）。
+- Time to verify every link you add.
+
+   有时间检查你添加的每个链接是否可访问。
+
+1. **Fork this repository** to your own GitHub account.
+
    **Fork 该仓库**到你的账号。
 2. Clone your fork:
    ```bash
    git clone https://github.com/<your-username>/naive-history-data.git
    ```
    克隆你的 Fork。
-3. Create a new branch for your work:  
+3. Create a new branch for your work:
    ```bash
    git checkout -b add-event-references
    ```
    创建新分支。
-4. Edit the JSON file with your preferred editor. Ensure the `"reference"` array follows the required structure.  
+4. Edit the JSON file with your preferred editor. Ensure the `"reference"` array follows the required structure.
+
    使用喜欢的编辑器修改 JSON 文件，确保 `"reference"` 数组结构正确。
-5. Validate JSON format and confirm every link opens.  
+5. Validate JSON format and confirm every link opens.
+
    确认 JSON 格式无误，并检查所有链接是否可以打开。
-6. Commit your changes with a clear message, then push the branch to your fork.  
+6. Commit your changes with a clear message, then push the branch to your fork.
+
    编写清晰的 Commit 信息并推送到你的 Fork。
-7. Visit your fork on GitHub, click **Compare & pull request**, describe what you changed, and submit.  
+7. Visit your fork on GitHub, click **Compare & pull request**, describe what you changed, and submit.
+
    回到 GitHub，点击 **Compare & pull request**，描述你的修改内容并提交。
 
 ---
 
 ## 5. Editing Tips | 编辑提示
 
-- Keep indentation consistent (two spaces recommended).  
-- Avoid trailing commas in JSON.  
-- If an event already has references, append your new entries at the end of its array.  
-- Reference text can be bilingual, but at least one language is required.  
-- Use trustworthy sources: encyclopedias, academic papers, publications, or official archives.  
+- Keep indentation consistent (two spaces recommended).
+
+   保持缩进一致（推荐两个空格）。
+- Avoid trailing commas in JSON.
+
+   JSON 中不要添加多余的逗号。
+- If an event already has references, append your new entries at the end of its array.
+
+   如果事件已有参考文献，请将新条目追加在数组末尾。
+- Reference text can be bilingual, but at least one language is required.
+
+   文本支持中英双语，但至少需要一种语言。
+- Use trustworthy sources: encyclopedias, academic papers, publications, or official archives.
+
+   请选择可信来源：百科全书、学术论文、出版物、官方档案等。
 - Double-check event dates and facts while adding references.
 
-- 保持缩进一致（推荐两个空格）。  
-- JSON 中不要添加多余的逗号。  
-- 如果事件已有参考文献，请将新条目追加在数组末尾。  
-- 文本支持中英双语，但至少需要一种语言。  
-- 请选择可信来源：百科全书、学术论文、出版物、官方档案等。  
-- 添加参考的同时，顺便核对事件的时间和事实。
+   添加参考的同时，顺便核对事件的时间和事实。
 
 ---
 
@@ -156,27 +200,32 @@ For experienced contributors or those comfortable with Git.
 
 ## 7. Review Process | 审核流程
 
-- Maintainers manually review every submission. Expect friendly feedback or requests for clarification.  
-- Minor mistakes are okay—we will normalize the data before merging.  
+- Maintainers manually review every submission. Expect friendly feedback or requests for clarification.
+
+   维护者会人工审核每一个提交，可能会给出友好的反馈或请求你补充说明。
+- Minor mistakes are okay—we will normalize the data before merging.
+
+   小错误没有关系，我们会在合并前进行规范化处理。
 - Once approved, your PR will be merged and you will be credited in the history of the repository.
 
-- 维护者会人工审核每一个提交，可能会给出友好的反馈或请求你补充说明。  
-- 小错误没有关系，我们会在合并前进行规范化处理。  
-- 审核通过后，你的贡献将被合并并记录在项目历史中。
+   审核通过后，你的贡献将被合并并记录在项目历史中。
 
 ---
 
 ## 8. Need Help? | 需要帮助？
 
-- Open an [issue](https://github.com/Maribbit/naive-history-data/issues) and describe your question.  
-- Join the QQ group (ID: 1059966304) for quick discussions.  
+- Open an [issue](https://github.com/Maribbit/naive-history-data/issues) and describe your question.
+
+   欢迎在 [Issue](https://github.com/Maribbit/naive-history-data/issues) 中提问。
+- Join the QQ group (ID: 1059966304) for quick discussions.
+
+   也可以加入企鹅群（ID：1059966304）交流。
 - Unsure about a source? Submit the PR with your best attempt and mention your concerns—we will assist.
 
-- 欢迎在 [Issue](https://github.com/Maribbit/naive-history-data/issues) 中提问。  
-- 也可以加入企鹅群（ID：1059966304）交流。  
-- 如果不确定来源是否合适，可以先提交 PR 并说明，我们会协助你。
+   如果不确定来源是否合适，可以先提交 PR 并说明，我们会协助你。
 
 ---
 
-Thank you for helping preserve and enrich world history data!  
+Thank you for helping preserve and enrich world history data!
+
 感谢你帮助构建和完善这份世界历史数据！
